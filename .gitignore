@@ -1,0 +1,20 @@
+# Terraform state
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+
+# Sensitive config
+*.tfvars
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Logs (if any added later)
+*.log
+
+# OS files
+.DS_Store
+
